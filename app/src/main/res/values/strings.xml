@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GruntPoint</string>
+
+    <string name="par1">Параметр 1</string>
+    <string name="par2">Параметр 2</string>
+    <string name="par3">Параметр 3</string>
+    <string name="par4">Параметр 4</string>
+
+    <string name="par1_1">Параметр 1.1</string>
+    <string name="par1_2">Параметр 1.2</string>
+    <string name="par1_3">Параметр 1.3</string>
+    <string name="par1_4">Параметр 1.4</string>
+
+    <string name="par2_1">Параметр 2.1</string>
+    <string name="par2_2">Параметр 2.2</string>
+    <string name="par2_3">Параметр 2.3</string>
+    <string name="par2_4">Параметр 2.4</string>
+
+    <string name="par3_1">Параметр 3.1</string>
+    <string name="par3_2">Параметр 3.2</string>
+    <string name="par3_3">Параметр 3.3</string>
+    <string name="par3_4">Параметр 3.4</string>
+
+    <string name="par4_1">Параметр 4.1</string>
+    <string name="par4_2">Параметр 4.2</string>
+    <string name="par4_3">Параметр 4.3</string>
+    <string name="par4_4">Параметр 4.4</string>
+
+
+</resources>
