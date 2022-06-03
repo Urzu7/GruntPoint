@@ -26,5 +26,18 @@
     <string name="par4_3">Параметр 4.3</string>
     <string name="par4_4">Параметр 4.4</string>
 
+    <string name="par5">Рельеф</string>
+    <string name="par5_1">Террасоувал</string>
+    <string name="par5_2">Пойма ручья</string>
+    <string name="par5_3">Распадок</string>
+    <string name="par5_4">Пологий склон</string>
+    <string name="par5_5">Водораздел</string>
+    <string name="par5_6">Седловина</string>
+    <string name="par5_7">Крутой склон</string>
+    <string name="par5_8">Склон</string>
+    <string name="par5_9">Терраса ручья</string>
+    <string name="par5_10">Долина ручья</string>
+    <string name="par5_11">Подножье крутого склона</string>
+
 
 </resources>

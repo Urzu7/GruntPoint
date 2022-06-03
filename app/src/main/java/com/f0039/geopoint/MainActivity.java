@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public static String svp4;
     public static int num = 0;
 
-    private final static String FILE_NAME = "GruntPoint.txt";
+   // private final static String FILE_NAME = "GruntPoint.txt";
 
     private TextView textViewDone, textView1, textView2, textView3, textView4;
     private Button ButtPar1;
