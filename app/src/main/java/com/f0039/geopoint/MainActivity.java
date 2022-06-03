@@ -1,22 +1,16 @@
 package com.f0039.geopoint;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.os.Environment;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.BufferedOutputStream;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
@@ -82,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     public void ButtDoneOut(View v) {
         Date date = new Date();
         num++;
-        String wrpoint = (date+ ","+ + num + ","+ svp1 +"," +svp2 +"," + svp3 +","+ svp4+ "\n");
+        String wrpoint = (date+ ","+ num + ","+ svp1 +"," +svp2 +"," + svp3 +","+ svp4+ "\n");
         /*String filePath = Environment.getExternalStorageDirectory() + "/GruntPoint.csv";*/
         try {
             /*BufferedOutputStream out = new BufferedOutputStream(new FileOutputStream(filePath ));*/
@@ -91,8 +85,6 @@ public class MainActivity extends AppCompatActivity {
             fos.flush();
             fos.close();
             Toast.makeText(MainActivity.this, "Точка добавлена", Toast.LENGTH_LONG).show();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
