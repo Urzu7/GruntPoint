@@ -1,6 +1,7 @@
 package com.f0039.geopoint;
 
 import static com.f0039.geopoint.MainActivity.svp6;
+import static com.f0039.geopoint.Massive.stpr6;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -12,8 +13,6 @@ import android.widget.TextView;
 public class Param_6 extends AppCompatActivity {
     public Button buttpar6_1, buttpar6_2, buttpar6_3, buttpar6_4, buttpar6_5, buttpar6_6, buttpar6_7, buttpar6_8, buttpar6_9, buttpar6_10;
     public TextView TextPar6, textViewDone;
-    public String[] Param_6 = {"AT", "FC", "GL", "GS", "R", "S", "SC", "SL", "TC", "V", "FS",};
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +28,7 @@ public class Param_6 extends AppCompatActivity {
         buttpar6_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                svp6 = Param_6[0];
+                svp6 = stpr6[0];
                 Intent gtmain = new Intent(Param_6.this, MainActivity.class);
                 startActivity(gtmain);
 
@@ -39,7 +38,7 @@ public class Param_6 extends AppCompatActivity {
         buttpar6_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                svp6 = Param_6[1];
+                svp6 = stpr6[1];
                 Intent gtmain = new Intent(Param_6.this, MainActivity.class);
                 startActivity(gtmain);
             }
@@ -48,7 +47,7 @@ public class Param_6 extends AppCompatActivity {
         buttpar6_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                svp6 = Param_6[2];
+                svp6 = stpr6[2];
                 Intent gtmain = new Intent(Param_6.this, MainActivity.class);
                 startActivity(gtmain);
             }
@@ -57,7 +56,7 @@ public class Param_6 extends AppCompatActivity {
         buttpar6_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                svp6 = Param_6[3];
+                svp6 = stpr6[3];
                 Intent gtmain = new Intent(Param_6.this, MainActivity.class);
                 startActivity(gtmain);
             }
@@ -66,7 +65,7 @@ public class Param_6 extends AppCompatActivity {
         buttpar6_5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                svp6 = Param_6[4];
+                svp6 = stpr6[4];
                 Intent gtmain = new Intent(Param_6.this, MainActivity.class);
                 startActivity(gtmain);
             }

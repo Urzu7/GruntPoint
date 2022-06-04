@@ -1,6 +1,7 @@
 package com.f0039.geopoint;
 
 import static com.f0039.geopoint.MainActivity.svp1;
+import static com.f0039.geopoint.Massive.stpr1;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -13,7 +14,6 @@ public class Param_1 extends AppCompatActivity {
 
     public Button buttpar1_1, buttpar1_2, buttpar1_3, buttpar1_4;
     public TextView TextPar1, textViewDone;
-    public String[] param_1 = {"param1_1", "param1_2", "param1_3", "param1_4",};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +27,7 @@ public class Param_1 extends AppCompatActivity {
         buttpar1_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                svp1 = param_1[0];
+                svp1 = stpr1[0];
                 Intent gtmain = new Intent(Param_1.this, MainActivity.class);
                 startActivity(gtmain);
 
@@ -37,7 +37,7 @@ public class Param_1 extends AppCompatActivity {
         buttpar1_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                svp1 = param_1[1];
+                svp1 = stpr1[1];
                 Intent gtmain = new Intent(Param_1.this, MainActivity.class);
                 startActivity(gtmain);
             }
@@ -46,7 +46,7 @@ public class Param_1 extends AppCompatActivity {
         buttpar1_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                svp1 = param_1[2];
+                svp1 = stpr1[2];
                 Intent gtmain = new Intent(Param_1.this, MainActivity.class);
                 startActivity(gtmain);
             }
@@ -55,7 +55,7 @@ public class Param_1 extends AppCompatActivity {
         buttpar1_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                svp1 = param_1[3];
+                svp1 = stpr1[3];
                 Intent gtmain = new Intent(Param_1.this, MainActivity.class);
                 startActivity(gtmain);
             }
