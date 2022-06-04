@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class Param_7 extends AppCompatActivity {
-    public Button buttpar7_1, buttpar7_2, buttpar7_3, buttpar7_4, buttpar7_5, buttpar7_6, buttpar7_7;
+    public Button buttpar7_1, buttpar7_2, buttpar7_3, buttpar7_4, buttpar7_5, buttpar7_6, buttpar7_7, buttpar7_8;
     public TextView Textpar7, textViewDone;
 
 
@@ -26,6 +26,7 @@ public class Param_7 extends AppCompatActivity {
         buttpar7_5 = findViewById(R.id.buttpar7_5);
         buttpar7_6 = findViewById(R.id.buttpar7_6);
         buttpar7_7 = findViewById(R.id.buttpar7_7);
+        buttpar7_8 = findViewById(R.id.buttpar7_8);
 
         Textpar7 = findViewById(R.id.TextPar7); // тут по-идее ничего не должно работать
 
@@ -86,6 +87,14 @@ public class Param_7 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 svp7 = stpr7[6];
+                Intent gtmain = new Intent(Param_7.this, MainActivity.class);
+                startActivity(gtmain);
+            }
+        });
+        buttpar7_8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                svp7 = stpr7[7];
                 Intent gtmain = new Intent(Param_7.this, MainActivity.class);
                 startActivity(gtmain);
             }

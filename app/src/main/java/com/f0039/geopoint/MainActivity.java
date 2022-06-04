@@ -68,10 +68,10 @@ public class MainActivity extends AppCompatActivity {
         textView2.setText(svp2);
         textView3.setText(svp3);
         textView4.setText(svp4);
-        textView1.setText(svp5);
-        textView2.setText(svp6);
-        textView3.setText(svp7);
-        textView4.setText(svp8);
+        textView5.setText(svp5);
+        textView6.setText(svp6);
+        textView7.setText(svp7);
+        textView8.setText(svp8);
 
         ButtDone = findViewById(R.id.ButtDone);
 
