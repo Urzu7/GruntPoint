@@ -27,11 +27,16 @@ public class MainActivity extends AppCompatActivity {
 
    // private final static String FILE_NAME = "GruntPoint.txt";
 
-    private TextView textViewDone, textView1, textView2, textView3, textView4;
+    private TextView textViewDone, textView1, textView2, textView3, textView4, textView5, textView6, textView7, textView8;
     private Button ButtPar1;
     private Button ButtPar2;
     private Button ButtPar3;
     private Button ButtPar4;
+    private Button ButtPar5;
+    private Button ButtPar6;
+    private Button ButtPar7;
+    private Button ButtPar8;
+
     private Button ButtDone;
 
 
@@ -44,15 +49,30 @@ public class MainActivity extends AppCompatActivity {
         textView2 = findViewById(R.id.textView2);
         textView3 = findViewById(R.id.textView3);
         textView4 = findViewById(R.id.textView4);
+        textView5 = findViewById(R.id.textView5);
+        textView6 = findViewById(R.id.textView6);
+        textView7 = findViewById(R.id.textView7);
+        textView8 = findViewById(R.id.textView8);
+
         ButtPar1 = findViewById(R.id.ButtPar1);
         ButtPar2 = findViewById(R.id.ButtPar2);
         ButtPar3 = findViewById(R.id.ButtPar3);
         ButtPar4 = findViewById(R.id.ButtPar4);
+        ButtPar5 = findViewById(R.id.ButtPar5);
+        ButtPar6 = findViewById(R.id.ButtPar6);
+        ButtPar7 = findViewById(R.id.ButtPar7);
+        ButtPar8 = findViewById(R.id.ButtPar8);
         ButtDone = findViewById(R.id.ButtDone);
+
         textView1.setText(svp1);
         textView2.setText(svp2);
         textView3.setText(svp3);
         textView4.setText(svp4);
+        textView1.setText(svp5);
+        textView2.setText(svp6);
+        textView3.setText(svp7);
+        textView4.setText(svp8);
+
         ButtDone = findViewById(R.id.ButtDone);
 
     }
@@ -81,7 +101,6 @@ public class MainActivity extends AppCompatActivity {
     public void GoToP5(View v) {
         Intent gtp1 = new Intent(this, Param_5.class);
         startActivity(gtp1);
-
     }
 
     public void GoToP6(View v) {
@@ -102,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
     public void ButtDoneOut(View v) {
         Date date = new Date();
         num++;
-        String wrpoint = (date+ ","+ num + ","+ svp1 +"," +svp2 +"," + svp3 +","+ svp4+ "\n");
+        String wrpoint = (date+ ","+ num + ","+ svp1 +"," +svp2 +"," + svp3 +","+ svp4 +","+ svp5 +"," +svp6 +"," + svp7 +","+ svp8 + "\n");
         /*String filePath = Environment.getExternalStorageDirectory() + "/GruntPoint.csv";*/
         try {
             /*BufferedOutputStream out = new BufferedOutputStream(new FileOutputStream(filePath ));*/
