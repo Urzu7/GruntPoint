@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class Param_1 extends AppCompatActivity {
 
-    public Button buttpar1_1, buttpar1_2, buttpar1_3, buttpar1_4;
+    public Button buttpar1_1, buttpar1_2, buttpar1_3, buttpar1_4,  buttpar1_5,  buttpar1_6,  buttpar1_7,  buttpar1_8;
     public TextView TextPar1, textViewDone;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,11 @@ public class Param_1 extends AppCompatActivity {
         buttpar1_2 = findViewById(R.id.buttpar1_2);
         buttpar1_3 = findViewById(R.id.buttpar1_3);
         buttpar1_4 = findViewById(R.id.buttpar1_4);
+        buttpar1_5 = findViewById(R.id.buttpar1_5);
+        buttpar1_6 = findViewById(R.id.buttpar1_6);
+        buttpar1_7 = findViewById(R.id.buttpar1_7);
+        buttpar1_8 = findViewById(R.id.buttpar1_8);
+
         TextPar1 = findViewById(R.id.TextPar1); // тут по-идее ничего не должно работать
 
         buttpar1_1.setOnClickListener(new View.OnClickListener() {
@@ -30,7 +35,6 @@ public class Param_1 extends AppCompatActivity {
                 svp1 = stpr1[0];
                 Intent gtmain = new Intent(Param_1.this, MainActivity.class);
                 startActivity(gtmain);
-
             }
         });
 
@@ -61,6 +65,41 @@ public class Param_1 extends AppCompatActivity {
             }
         });
 
+        buttpar1_5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                svp1 = stpr1[4];
+                Intent gtmain = new Intent(Param_1.this, MainActivity.class);
+                startActivity(gtmain);
+            }
+        });
+
+        buttpar1_6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                svp1 = stpr1[5];
+                Intent gtmain = new Intent(Param_1.this, MainActivity.class);
+                startActivity(gtmain);
+            }
+        });
+
+        buttpar1_7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                svp1 = stpr1[6];
+                Intent gtmain = new Intent(Param_1.this, MainActivity.class);
+                startActivity(gtmain);
+            }
+        });
+
+        buttpar1_8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                svp1 = stpr1[7];
+                Intent gtmain = new Intent(Param_1.this, MainActivity.class);
+                startActivity(gtmain);
+            }
+        });
     }
 }
 

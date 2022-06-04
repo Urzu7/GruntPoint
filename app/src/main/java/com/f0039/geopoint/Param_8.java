@@ -24,7 +24,7 @@ public class Param_8 extends AppCompatActivity {
         buttpar8_3 = findViewById(R.id.buttpar8_3);
         buttpar8_4 = findViewById(R.id.buttpar8_4);
 
-        Textpar8 = findViewById(R.id.Textpar8); // тут по-идее ничего не должно работать
+        Textpar8 = findViewById(R.id.TextPar8); // тут по-идее ничего не должно работать
 
         buttpar8_1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,3 +63,4 @@ public class Param_8 extends AppCompatActivity {
             }
         });
     }
+}

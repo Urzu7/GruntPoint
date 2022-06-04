@@ -13,6 +13,7 @@ import android.widget.TextView;
 public class Param_6 extends AppCompatActivity {
     public Button buttpar6_1, buttpar6_2, buttpar6_3, buttpar6_4, buttpar6_5, buttpar6_6, buttpar6_7, buttpar6_8, buttpar6_9, buttpar6_10;
     public TextView TextPar6, textViewDone;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,3 +72,4 @@ public class Param_6 extends AppCompatActivity {
             }
         });
     }
+}

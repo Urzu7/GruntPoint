@@ -27,7 +27,7 @@ public class Param_7 extends AppCompatActivity {
         buttpar7_6 = findViewById(R.id.buttpar7_6);
         buttpar7_7 = findViewById(R.id.buttpar7_7);
 
-        Textpar7 = findViewById(R.id.Textpar7); // тут по-идее ничего не должно работать
+        Textpar7 = findViewById(R.id.TextPar7); // тут по-идее ничего не должно работать
 
         buttpar7_1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,3 +91,4 @@ public class Param_7 extends AppCompatActivity {
             }
         });
     }
+}
