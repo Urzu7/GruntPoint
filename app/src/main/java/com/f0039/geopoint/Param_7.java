@@ -11,14 +11,14 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class Param_7 extends AppCompatActivity {
-    public Button buttpar7_1, buttpar7_2, buttpar7_3, buttpar7_4, buttpar7_5, buttpar7_6, buttpar7_7, buttpar7_8, buttpar7_9, buttpar7_10;
+    public Button buttpar7_1, buttpar7_2, buttpar7_3, buttpar7_4, buttpar7_5, buttpar7_6, buttpar7_7;
     public TextView Textpar7, textViewDone;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_param3);
+        setContentView(R.layout.activity_param7);
         buttpar7_1 = findViewById(R.id.buttpar7_1);
         buttpar7_2 = findViewById(R.id.buttpar7_2);
         buttpar7_3 = findViewById(R.id.buttpar7_3);

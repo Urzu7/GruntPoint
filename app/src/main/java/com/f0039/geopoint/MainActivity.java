@@ -99,23 +99,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void GoToP5(View v) {
-        Intent gtp1 = new Intent(this, Param_5.class);
-        startActivity(gtp1);
+        Intent gtp5 = new Intent(this, Param_5.class);
+        startActivity(gtp5);
     }
 
     public void GoToP6(View v) {
-        Intent gtp2 = new Intent(this, Param_6.class);
-        startActivity(gtp2);
+        Intent gtp6 = new Intent(this, Param_6.class);
+        startActivity(gtp6);
     }
 
     public void GoToP7(View v) {
-        Intent gtp3 = new Intent(this, Param_7.class);
-        startActivity(gtp3);
+        Intent gtp7 = new Intent(this, Param_7.class);
+        startActivity(gtp7);
     }
 
     public void GoToP8(View v) {
-        Intent gtp4 = new Intent(this, Param_8.class);
-        startActivity(gtp4);
+        Intent gtp8 = new Intent(this, Param_8.class);
+        startActivity(gtp8);
     }
 
     public void ButtDoneOut(View v) {

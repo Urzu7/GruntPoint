@@ -18,7 +18,7 @@ public class Param_8 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_param3);
+        setContentView(R.layout.activity_param8);
         buttpar8_1 = findViewById(R.id.buttpar8_1);
         buttpar8_2 = findViewById(R.id.buttpar8_2);
         buttpar8_3 = findViewById(R.id.buttpar8_3);
