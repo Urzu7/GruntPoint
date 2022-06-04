@@ -121,7 +121,7 @@
     <TextView
         android:id="@+id/TextPar5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="@string/par5"
         android:textAllCaps="true"
         android:textColor="@color/white"

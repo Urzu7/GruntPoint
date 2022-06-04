@@ -78,6 +78,27 @@ public class MainActivity extends AppCompatActivity {
         startActivity(gtp4);
     }
 
+    public void GoToP5(View v) {
+        Intent gtp1 = new Intent(this, Param_5.class);
+        startActivity(gtp1);
+
+    }
+
+    public void GoToP6(View v) {
+        Intent gtp2 = new Intent(this, Param_6.class);
+        startActivity(gtp2);
+    }
+
+    public void GoToP7(View v) {
+        Intent gtp3 = new Intent(this, Param_7.class);
+        startActivity(gtp3);
+    }
+
+    public void GoToP8(View v) {
+        Intent gtp4 = new Intent(this, Param_8.class);
+        startActivity(gtp4);
+    }
+
     public void ButtDoneOut(View v) {
         Date date = new Date();
         num++;

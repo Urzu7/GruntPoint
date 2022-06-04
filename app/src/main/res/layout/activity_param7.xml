@@ -97,7 +97,7 @@
     <TextView
         android:id="@+id/TextPar7"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="@string/par7"
         android:textAllCaps="true"
         android:textColor="@color/white"
