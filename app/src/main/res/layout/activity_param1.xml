@@ -9,139 +9,105 @@
 
     <Button
         android:id="@+id/buttpar1_1"
-        android:layout_width="296dp"
-        android:layout_height="65dp"
-        android:layout_marginBottom="60dp"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
         android:text="@string/par1_1"
-        app:layout_constraintBottom_toTopOf="@+id/buttpar1_2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextPar1" />
 
     <Button
         android:id="@+id/buttpar1_2"
-        android:layout_width="296dp"
-        android:layout_height="65dp"
-        android:layout_marginBottom="60dp"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
         android:text="@string/par1_2"
-        app:layout_constraintBottom_toTopOf="@+id/buttpar1_3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttpar1_1" />
 
     <Button
         android:id="@+id/buttpar1_3"
-        android:layout_width="296dp"
-        android:layout_height="65dp"
-        android:layout_marginBottom="60dp"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
         android:text="@string/par1_3"
-        app:layout_constraintBottom_toTopOf="@+id/buttpar1_4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttpar1_2" />
 
     <Button
         android:id="@+id/buttpar1_4"
-        android:layout_width="296dp"
-        android:layout_height="65dp"
-        android:layout_marginBottom="52dp"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
         android:text="@string/par1_4"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttpar1_3" />
 
-        <Button
-            android:id="@+id/buttpar1_5"
-            android:layout_width="296dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/par1_5"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttpar1_4" />
+    <Button
+        android:id="@+id/buttpar1_5"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/par1_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextPar1" />
 
-        <Button
-            android:id="@+id/buttpar1_6"
-            android:layout_width="296dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/par1_6"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttpar1_5" />
+    <Button
+        android:id="@+id/buttpar1_6"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/par1_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttpar1_5" />
 
-        <Button
-            android:id="@+id/buttpar1_7"
-            android:layout_width="296dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/par1_7"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttpar1_6" />
+    <Button
+        android:id="@+id/buttpar1_7"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/par1_7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttpar1_6" />
 
-        <Button
-            android:id="@+id/buttpar1_8"
-            android:layout_width="296dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/par1_8"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttpar1_7" />
-
-        <Button
-            android:id="@+id/buttpar1_9"
-            android:layout_width="296dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/par1_9"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttpar1_8" />
-
-        <Button
-            android:id="@+id/buttpar1_10"
-            android:layout_width="296dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/par1_10"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttpar1_9" />
-
-        <Button
-            android:id="@+id/buttpar1_11"
-            android:layout_width="296dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/par1_11"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttpar1_10" />
-
+    <Button
+        android:id="@+id/buttpar1_8"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/par1_8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttpar1_7" />
 
     <TextView
         android:id="@+id/TextPar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:text="@string/par1"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/buttpar1_1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.657" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

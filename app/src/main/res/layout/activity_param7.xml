@@ -8,8 +8,8 @@
     tools:context=".Param_7">
     <Button
         android:id="@+id/buttpar7_1"
-        android:layout_width="296dp"
-        android:layout_height="48dp"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
         android:layout_marginTop="7dp"
         android:text="@string/par7_1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,8 +19,8 @@
 
     <Button
         android:id="@+id/buttpar7_2"
-        android:layout_width="296dp"
-        android:layout_height="48dp"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
         android:layout_marginTop="10dp"
         android:text="@string/par7_2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,8 +30,8 @@
 
     <Button
         android:id="@+id/buttpar7_3"
-        android:layout_width="296dp"
-        android:layout_height="48dp"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
         android:layout_marginTop="10dp"
         android:text="@string/par7_3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,8 +41,8 @@
 
     <Button
         android:id="@+id/buttpar7_4"
-        android:layout_width="296dp"
-        android:layout_height="48dp"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
         android:layout_marginTop="10dp"
         android:text="@string/par7_4"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,8 +52,8 @@
 
     <Button
         android:id="@+id/buttpar7_5"
-        android:layout_width="296dp"
-        android:layout_height="48dp"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
         android:layout_marginTop="10dp"
         android:text="@string/par7_5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,8 +63,8 @@
 
     <Button
         android:id="@+id/buttpar7_6"
-        android:layout_width="296dp"
-        android:layout_height="48dp"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
         android:layout_marginTop="10dp"
         android:text="@string/par7_6"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,8 +74,8 @@
 
     <Button
         android:id="@+id/buttpar7_7"
-        android:layout_width="296dp"
-        android:layout_height="48dp"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
         android:layout_marginTop="10dp"
         android:text="@string/par7_7"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,8 +85,8 @@
 
     <Button
         android:id="@+id/buttpar7_8"
-        android:layout_width="296dp"
-        android:layout_height="48dp"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
         android:layout_marginTop="10dp"
         android:text="@string/par7_8"
         app:layout_constraintEnd_toEndOf="parent"
