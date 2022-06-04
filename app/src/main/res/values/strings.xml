@@ -7,10 +7,10 @@
     <string name="par1_2">Глеевый (подторфяной) горизонт</string>
     <string name="par1_3">Подстилающие почву рыхлые отложения</string>
     <string name="par1_4">Дресва кор выветривания</string>
-    <string name="par1_1">Донный осадок действующего водостока</string>
-    <string name="par1_2">Донный осадок временного водостока</string>
-    <string name="par1_3">Донный осадок временного водостока в широком логу</string>
-    <string name="par1_4">Донный осадок водоёма</string>
+    <string name="par1_5">Донный осадок действующего водостока</string>
+    <string name="par1_6">Донный осадок временного водостока</string>
+    <string name="par1_7">Донный осадок временного водостока в широком логу</string>
+    <string name="par1_8">Донный осадок водоёма</string>
 
     <string name="par2">Литологический состав проб</string>
     <string name="par2_1">Гумус</string>
@@ -18,30 +18,64 @@
     <string name="par2_3">Илисто-глинистый</string>
     <string name="par2_4">Супесь</string>
 
-    <string name="par3">Параметр 3</string>
-    <string name="par3_1">Параметр 3.1</string>
-    <string name="par3_2">Параметр 3.2</string>
-    <string name="par3_3">Параметр 3.3</string>
-    <string name="par3_4">Параметр 3.4</string>
+    <string name="par3">Цвет пробы</string>
+    <string name="par3_1">Бежевый</string>
+    <string name="par3_2">Черный</string>
+    <string name="par3_3">Коричневый</string>
+    <string name="par3_4">Бурый</string>
+    <string name="par3_5">Зелёный</string>
+    <string name="par3_6">Серый</string>
+    <string name="par3_7">Красный</string>
+    <string name="par3_8">Рыжий</string>
+    <string name="par3_7">Белый</string>
+    <string name="par3_8">Желтый</string>
 
-    <string name="par4">Параметр 4</string>
-    <string name="par4_1">Параметр 4.1</string>
-    <string name="par4_2">Параметр 4.2</string>
-    <string name="par4_3">Параметр 4.3</string>
-    <string name="par4_4">Параметр 4.4</string>
+    <string name="par4">Рельеф</string>
+    <string name="par4_1">Террасоувал</string>
+    <string name="par4_2">Пойма ручья</string>
+    <string name="par4_3">Распадок</string>
+    <string name="par4_4">Пологий склон</string>
+    <string name="par4_5">Водораздел</string>
+    <string name="par4_6">Седловина</string>
+    <string name="par4_7">Крутой склон</string>
+    <string name="par4_8">Склон</string>
+    <string name="par4_9">Терраса ручья</string>
+    <string name="par4_10">Долина ручья</string>
+    <string name="par4_11">Подножье крутого склона</string>
 
-    <string name="par5">Рельеф</string>
-    <string name="par5_1">Террасоувал</string>
-    <string name="par5_2">Пойма ручья</string>
-    <string name="par5_3">Распадок</string>
-    <string name="par5_4">Пологий склон</string>
-    <string name="par5_5">Водораздел</string>
-    <string name="par5_6">Седловина</string>
-    <string name="par5_7">Крутой склон</string>
-    <string name="par5_8">Склон</string>
-    <string name="par5_9">Терраса ручья</string>
-    <string name="par5_10">Долина ручья</string>
-    <string name="par5_11">Подножье крутого склона</string>
+    <string name="par5">Элементарный ландшафт</string>
+    <string name="par5_1">Болото</string>
+    <string name="par5_2">Заболоченый лес</string>
+    <string name="par5_3">Сырой луг</string>
+    <string name="par5_4">Лес</string>
+    <string name="par5_5">Сухой луг</string>
+    <string name="par5_6">Курумник</string>
+    <string name="par5_7">Свежие вырубки</string>
+    <string name="par5_8">Уасток горных работ</string>
+    <string name="par5_9">Техногенный ландшафт</string>
+    <string name="par5_10">Другое</string>
 
+    <string name="par6">Обнаженность</string>
+    <string name="par6_1">Отсутствует</string>
+    <string name="par6_2">Не видно, но есть развалы</string>
+    <string name="par6_3">Есть отдельные обнажения</string>
+    <string name="par6_4">Хорошая</string>
+    <string name="par6_5">Почти сплошная</string>
+
+    <string name="par7">Тип преобладающих пород</string>
+    <string name="par7_1">Нет, или не ясно</string>
+    <string name="par7_2">Песчанники, алевропесчанники</string>
+    <string name="par7_3">Алевролиты, аргелиты, глинистые сланцы</string>
+    <string name="par7_4">Брекчии, конгломераты, гравелты</string>
+    <string name="par7_5">Субвулканические породы</string>
+    <string name="par7_6">Черные сланцы углеродистые</string>
+    <string name="par7_7">Метасоматиты</string>
+    <string name="par7_8">Другое</string>
+
+    <string name="par8">Рудные обломки</string>
+    <string name="par8_1">Нет</string>
+    <string name="par8_2">Кварц-карбонатные прожилки</string>
+    <string name="par8_3">Метасоматиты, Брекчии</string>
+    <string name="par8_4">Другое</string>
 
 </resources>

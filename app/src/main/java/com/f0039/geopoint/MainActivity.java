@@ -18,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
     public static String svp2;
     public static String svp3;
     public static String svp4;
+    public static String svp5;
+    public static String svp6;
+    public static String svp7;
+    public static String svp8;
+
     public static int num = 0;
 
    // private final static String FILE_NAME = "GruntPoint.txt";
@@ -92,4 +97,3 @@ public class MainActivity extends AppCompatActivity {
     }
 
     }
-

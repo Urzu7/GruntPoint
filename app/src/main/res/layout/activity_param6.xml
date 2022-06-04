@@ -4,6 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backg"
     tools:context=".Param_6">
+    <Button
+        android:id="@+id/buttpar6_1"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/par6_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextPar6" />
+
+    <Button
+        android:id="@+id/buttpar6_2"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/par6_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttpar6_1" />
+
+    <Button
+        android:id="@+id/buttpar6_3"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/par6_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttpar6_2" />
+
+    <Button
+        android:id="@+id/buttpar6_4"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/par6_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttpar6_3" />
+
+    <Button
+        android:id="@+id/buttpar6_5"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/par6_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttpar6_4" />
+
+    <TextView
+        android:id="@+id/TextPar6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/par6"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
